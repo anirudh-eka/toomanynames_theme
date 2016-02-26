@@ -1,0 +1,40 @@
+$navFontMaxSize = 1.36em
+$navTopPadding = 0.2em
+$navBottomPadding = 0.3em
+$navHeight = $navBottomPadding + $navTopPadding + $navFontMaxSize
+nav
+  background-color: $teal
+  padding: $navTopPadding 0em $navBottomPadding 0em
+  a
+    color: white
+    font-size: $navFontMaxSize
+    text-decoration: none
+    transition: color 1s
+    -webkit-transition: color 1s
+    @media screen and (max-width: $break-medium)
+      font-size: 2em
+  a:visited
+    color: white
+  a:hover
+    color: $beige
+    transition: color 1s
+    -webkit-transition: color 1s
+  #nav-container
+    width: 49.1em
+    margin: auto
+    @media screen and (max-width: $break-medium)
+      width: initial
+      text-align: center
+    .social-icons
+      display: inline-block
+      margin-left: 60%
+      font-size: 0.5em
+      @media screen and (max-width: $break-medium)
+        display: block
+        margin: auto
+nav.scrolled-to-top
+  position: fixed
+  top: 0
+  width: 100%
+nav.scrolled-to-top + #container
+  margin-top: $navHeight
