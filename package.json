@@ -1,0 +1,15 @@
+{
+  "name": "toomanynames_theme",
+  "version": "1.0.0",
+  "description": "Styling and templating files for toomanynames.com (using styl and ejs).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudh-eka/toomanynames_theme.git"
+  },
+  "author": "anirudh-eka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudh-eka/toomanynames_theme/issues"
+  },
+  "homepage": "https://github.com/anirudh-eka/toomanynames_theme#readme"
+}
