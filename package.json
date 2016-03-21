@@ -1,6 +1,6 @@
 {
   "name": "toomanynames_theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Styling and templating files for toomanynames.com (using styl and ejs).",
   "repository": {
     "type": "git",
