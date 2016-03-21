@@ -34,3 +34,12 @@ Then, add the following line in `main.styl`
 @import "../../node_modules/toomanynames_theme/source/css/toomanynames_base
 
 ```
+
+### Add Partials
+
+You don't need to do anything more to access the toomanynames partials. If you had a file like `layout/index.ejs` in your main theme, you could just do this:
+
+```
+<%- partial('_partial/navigation') %>
+```
+This will first look for definitions of partial in your local partials, if not in there it will grab it from `toomanynames_theme`.
