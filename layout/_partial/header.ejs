@@ -1,0 +1,12 @@
+<div class="header">
+	<section>
+		<h1 class="heading"><a href="#"><%= title %></a></h1>
+	</section>
+		<% if (summary) { %>
+			<h2 class="summary"><%= summary %></h2>
+		<% } %>
+	<div id="home-links">
+    <%- partial('_partial/social_icons') %>
+	</div>
+	<a href="#posts" id="read-more-arrow">&#8595;</a>
+</div>
